@@ -1,0 +1,19 @@
+[project]
+name = "p0-llm-basics"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "xiaonan-xiaowo", email = "1497496617@qq.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "openai>=3.26.1",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+p0-llm-basics = "p0_llm_basics:main"
+
+[build-system]
+requires = ["uv_build>=0.12.20,<0.13.0"]
+build-backend = "uv_build"
